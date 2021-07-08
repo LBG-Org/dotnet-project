@@ -19,4 +19,10 @@ namespace MyFirstCoreApp
                 .UseStartup<Startup>()
                 .Build();
     }
+     public static IWebHost BuildHost(string[] args) =>
+            WebHost.CreateDefaultBuilder(args)
+                .UseStartup<Startup>()
+                .Build();
+    }
+}
 }
