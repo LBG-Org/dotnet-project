@@ -11,9 +11,9 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# GitHub Pages at repo level
+## specific to dotnet-project
+### Pages can be configured at User level, Repo level and Org level to hold the information about hosting 
 
 - Bulleted
 - List
